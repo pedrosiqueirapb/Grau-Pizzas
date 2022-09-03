@@ -7,7 +7,7 @@ header, footer{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-variant: small-caps;
     font-weight: 500;
-    font-size: 0.6cm;
+    font-size: 0.7cm;
     margin: 0cm 0.3cm;
     color: #ffffff;
 }
@@ -67,20 +67,20 @@ body{
 }
 p{
     text-align: justify;
-    font-weight: 300;
+    font-size: 0.5cm;
     font-family: Arial, Helvetica, sans-serif;
 }
 .cardapio > h1, .bebidas > h1{
     text-align: center;
 }
 .banner, .cardapio, .bebidas, .sobreNos{
-    margin: 0px 15px 15px 15px;
+    margin: 0cm 0.397cm 0.397cm 0.397cm;
     background-color: #fff;
 }
 #infosPizza, #infosBebidas{
-    width: 250px;
-    height: 250px;
-    margin: 0px 15px 15px 15px;
+    width: 6.615cm;
+    height: 6.615cm;
+    margin: 0cm 0.397cm 0.397cm 0.397cm;
     border: 2px solid #fbb040;
     display: inline-block;
 }
@@ -123,4 +123,41 @@ footer i{
 }
 .redesSociais{
     margin-left: 1cm;
+}
+
+/* Definições imagens pizzas */
+.frango-catupiry, .marguerita{
+    width: 5cm;
+    height: 5cm;
+}
+.milho-bacon, .quatro-queijos{
+    width: 5.3cm;
+    height: 5.3cm;
+}
+.calabresa, .portuguesa, .chocolate{
+    width: 5.5cm;
+    height: 5.5cm;
+}
+.pepperoni{
+    width: 5.6cm;
+    height: 5cm;
+    margin: 0.14cm 0cm 0cm 0.16cm;
+}
+.frango-catupiry, .marguerita{
+    margin: 0.11cm 0cm 0.4cm 0.48cm;
+}
+.quatro-queijos{
+    margin: -0.07cm 0cm 0cm 0.32cm;
+}
+.calabresa{
+    margin: -0.13cm 0cm 0cm 0.21cm;
+}
+.chocolate{
+    margin: -0.15cm 0cm 0cm 0.23cm;
+}
+.portuguesa{
+    margin: -0.15cm 0cm 0cm 0.21cm;
+}
+.milho-bacon{
+    margin: -0.07cm 0cm 0cm 0.36cm;
 }
