@@ -1,0 +1,126 @@
+/* Cabeçalho */
+header, footer{
+    background-color: #AE0F18;
+}
+.navCardapio, .navBebidas, .navSobreNos{
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-variant: small-caps;
+    font-weight: 500;
+    font-size: 0.6cm;
+    margin: 0cm 0.3cm;
+    color: #ffffff;
+}
+.navCardapio:hover, .navBebidas:hover, .navSobreNos:hover{
+    background: #fbb040;
+    color: #000000;
+    -webkit-transition: all 0.7s;
+    transition: all 0.7s;
+}
+.logoHeader, .logoFooter{
+    width: 4.5cm;
+    height: 3.5cm;
+}
+.logoHeader{
+    margin: 0.3cm 0cm 0.3cm 0.8cm;
+}
+header > ul{
+    display: inline-flex;
+}
+li{
+    list-style: none;
+    display: inline-flex;
+    margin-left: 2.5cm;
+}
+
+/* Main */
+::-webkit-scrollbar{
+    width: 0.4cm;
+}
+::-webkit-scrollbar-track{
+    background-color: #000000;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #fbb040;
+    border-radius: 0.3cm;
+}
+h1, h5{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-variant: small-caps;
+    font-weight: 500;
+}
+.line{
+    width: 3cm;
+    margin: 0.08cm 0cm 0.8cm 16cm;
+    padding-bottom: 0.1cm;
+    color: #000000;
+}
+#btn{
+    margin-left: 28.3cm;
+}
+h5{
+    text-align: center;
+    padding-top: 0.3cm;
+}
+body{
+    background-color: #fff;
+}
+p{
+    text-align: justify;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cardapio > h1, .bebidas > h1{
+    text-align: center;
+}
+.banner, .cardapio, .bebidas, .sobreNos{
+    margin: 0px 15px 15px 15px;
+    background-color: #fff;
+}
+#infosPizza, #infosBebidas{
+    width: 250px;
+    height: 250px;
+    margin: 0px 15px 15px 15px;
+    border: 2px solid #fbb040;
+    display: inline-block;
+}
+.descricao{
+    display: inline-block;
+    width: 450px;
+    height: 300px;
+    position: absolute;
+    left: 17cm;
+}
+.imgSobreNos{
+    display: inline-block;
+    position: relative;
+    left: 8cm;
+    z-index: 999;
+}
+.saborPizza{
+    background-color: #fbb040;
+    width: 247px;
+    height: 50px;
+    margin-left: -0.3cm;
+}
+
+/* Rodapé */
+.copyright{
+    display: inline-flex;
+    margin-left: 8cm;
+    font-size: 0.6cm;
+    font-variant: small-caps;
+    color: #ffffff;
+}
+.logoFooter{
+    margin: 0.3cm 0cm 0.3cm 7.5cm;
+    display: inline-flex;
+}
+footer i{
+    font-size: xx-large;
+    color: #ffffff;
+    margin: 0px 10px 0px 10px;
+}
+.redesSociais{
+    margin-left: 1cm;
+}
