@@ -32,6 +32,19 @@ li{
     display: inline-flex;
     margin-left: 2.5cm;
 }
+header i{
+    font-size: xx-large;
+    color: #ffffff;
+}
+.number{
+    color: #ffffff;
+    display: inline;
+    font-size: 0.7cm;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.telefone{
+    margin-left: 2.5cm;
+}
 
 /* Main */
 ::-webkit-scrollbar{
@@ -50,12 +63,15 @@ h1, h5{
     font-weight: 500;
     text-align: center;
 }
+h1{
+    color: #228B22;
+}
 h5{
     padding-top: 0.3cm;
 }
 .line-one, .line-two, .line-three{
     padding-bottom: 0.1cm;
-    color: #000000;
+    color: #228B22;
 }
 .line-one{
     width: 3cm;
@@ -87,8 +103,15 @@ h5{
     -webkit-transition: all 0.7s;
     transition: all 0.7s;
 }
-#btn{
-    margin-left: 28.3cm;
+#btn, #btn-Mais{
+    margin-left: 29cm;
+}
+#btn-Menos, #btn-MenosDois{
+    margin-left: 29cm;
+    display: none;
+}
+#novaLinha, #novaLinhaDois{
+    display: none;
 }
 p{
     text-align: justify;
@@ -98,12 +121,26 @@ p{
 #infosPizza, #infosSobremesas{
     width: 6.615cm;
     height: 6.615cm;
-    margin: 0cm 0.397cm 0.397cm 0.397cm;
+    margin: 0cm 0.383cm 0.7cm 0.383cm;
+}
+#infosSobremesas > p{
+    text-align:start;
+    align-content: center;
+    font-weight: 600;
+    font-size: 0.6cm;
+    color: #228B22;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 #infosBebidas{
     width: 8.7cm;
     height: 3.8cm;
     margin: 0cm 0.7cm 0.7cm 0cm;
+}
+.imgRefri{
+    margin: -0.05cm 0cm 0cm -0.37cm;
+    width: 4cm;
+    height: 3.8cm;
+    border: 2px solid #000000;
 }
 #infosPizza, #infosSobremesas, #infosBebidas{
     border: 2px solid #fbb040;
@@ -119,7 +156,7 @@ p{
     background-color: #fbb040;
     width: 247px;
     height: 50px;
-    margin-left: -0.3cm;
+    margin-left: -0.31cm;
 }
 
 /* Rodapé */
@@ -143,7 +180,7 @@ footer i{
     margin-left: 1cm;
 }
 
-/* Definições imagens pizzas */ /* bacon - banana - lombo - mussarela */
+/* Definições imagens pizzas */
 .frango-catupiry, .marguerita{
     width: 5cm;
     height: 5cm;
@@ -197,22 +234,22 @@ footer i{
 
 /* Definições imagens sobremesas */
 .imgBrownie{
-    width: 3.31cm;
-    height: 3.44cm;
-    margin: -0.32cm 0cm 0cm 1.38cm;
+    width: 4.31cm;
+    height: 4.44cm;
+    margin: -0.4cm 0cm 0cm 0.95cm;
 }
-.imgPetit{
-    width: 4.1cm;
-    height: 3.12cm;
-    margin: 0.013cm 0cm 0cm 0.85cm;
+.imgPave{
+    width: 4.2cm;
+    height: 4.2cm;
+    margin: -0.15cm 0cm 0cm 0.9cm;
 }
 .imgTorta{
-    width: 3.44cm;
-    height: 3.57cm;
-    margin: -0.4cm 0cm 0cm 1.03cm;
+    width: 4.37cm;
+    height: 4.5cm;
+    margin: -0.45cm 0cm 0cm 0.6cm;
 }
 .imgDonut{
-    width: 4.23cm;
-    height: 4.23cm;
-    margin: -1.01cm 0cm 0cm 0.77cm;
+    width: 5.23cm;
+    height: 5.23cm;
+    margin: -1.19cm 0cm 0cm 0.33cm;
 }
