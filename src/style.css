@@ -2,7 +2,7 @@
 header, footer{
     background-color: #AE0F18;
 }
-.navCardapio, .navBebidas, .navSobreNos{
+.navCardapio, .navBebidas, .navSobremesas{
     text-decoration: none;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-variant: small-caps;
@@ -11,7 +11,7 @@ header, footer{
     margin: 0cm 0.3cm;
     color: #ffffff;
 }
-.navCardapio:hover, .navBebidas:hover, .navSobreNos:hover{
+.navCardapio:hover, .navBebidas:hover, .navSobremesas:hover{
     background: #fbb040;
     color: #000000;
     -webkit-transition: all 0.7s;
@@ -48,56 +48,74 @@ h1, h5{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-variant: small-caps;
     font-weight: 500;
+    text-align: center;
 }
-.line{
-    width: 3cm;
-    margin: 0.08cm 0cm 0.8cm 16cm;
+h5{
+    padding-top: 0.3cm;
+}
+.line-one, .line-two, .line-three{
     padding-bottom: 0.1cm;
     color: #000000;
 }
+.line-one{
+    width: 3cm;
+    margin: 0.08cm 0cm 0.8cm 16.35cm;
+}
+.line-two{
+    width: 2.6cm;
+    margin: 0.08cm 0cm 0.8cm 16.52cm;
+}
+.line-three{
+    width: 3.8cm;
+    margin: 0.08cm 0cm 0.8cm 16cm;
+}
+.precoSobremesa{
+    color: #ffffff;
+    background: #AE0F18;
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.7cm;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 60%;
+    border-radius: 0.2cm;
+    border: 0.05cm solid #000000;
+    margin: 0.4cm 0cm 0cm 1.2cm;
+}
+.precoSobremesa:hover{
+    color: #000000;
+    background: #fbb040;
+    -webkit-transition: all 0.7s;
+    transition: all 0.7s;
+}
 #btn{
     margin-left: 28.3cm;
-}
-h5{
-    text-align: center;
-    padding-top: 0.3cm;
-}
-body{
-    background-color: #fff;
 }
 p{
     text-align: justify;
     font-size: 0.5cm;
     font-family: Arial, Helvetica, sans-serif;
 }
-.cardapio > h1, .bebidas > h1{
-    text-align: center;
-}
-.banner, .cardapio, .bebidas, .sobreNos{
-    margin: 0cm 0.397cm 0.397cm 0.397cm;
-    background-color: #fff;
-}
-#infosPizza, #infosBebidas{
+#infosPizza, #infosSobremesas{
     width: 6.615cm;
     height: 6.615cm;
     margin: 0cm 0.397cm 0.397cm 0.397cm;
+}
+#infosBebidas{
+    width: 8.7cm;
+    height: 3.8cm;
+    margin: 0cm 0.7cm 0.7cm 0cm;
+}
+#infosPizza, #infosSobremesas, #infosBebidas{
     border: 2px solid #fbb040;
     display: inline-block;
 }
-.descricao{
-    display: inline-block;
-    width: 450px;
-    height: 300px;
-    position: absolute;
-    left: 17cm;
+.banner, .cardapio, .bebidas, .sobremesas{
+    margin-bottom: 1cm;
 }
-.imgSobreNos{
-    display: inline-block;
-    position: relative;
-    left: 8cm;
-    z-index: 999;
+#containerBebidas{
+    margin-left: 3.9cm;
 }
-.saborPizza{
+.saborPizza, .nomeSobremesa{
     background-color: #fbb040;
     width: 247px;
     height: 50px;
@@ -125,10 +143,11 @@ footer i{
     margin-left: 1cm;
 }
 
-/* Definições imagens pizzas */
+/* Definições imagens pizzas */ /* bacon - banana - lombo - mussarela */
 .frango-catupiry, .marguerita{
     width: 5cm;
     height: 5cm;
+    margin: 0.11cm 0cm 0.4cm 0.48cm;
 }
 .milho-bacon, .quatro-queijos{
     width: 5.3cm;
@@ -142,9 +161,6 @@ footer i{
     width: 5.6cm;
     height: 5cm;
     margin: 0.14cm 0cm 0cm 0.16cm;
-}
-.frango-catupiry, .marguerita{
-    margin: 0.11cm 0cm 0.4cm 0.48cm;
 }
 .quatro-queijos{
     margin: -0.07cm 0cm 0cm 0.32cm;
@@ -160,4 +176,43 @@ footer i{
 }
 .milho-bacon{
     margin: -0.07cm 0cm 0cm 0.36cm;
+}
+.bacon, .lombo{
+    width: 183px;
+    height: 183px;
+}
+.bacon, .lombo{
+    margin: 0.2cm 0cm 0cm 0.54cm;
+}
+.banana{
+    margin: 0.12cm 0cm 0cm 0.5cm;
+    width: 187px;
+    height: 187px;
+}
+.mussarela{
+    width: 216px;
+    height: 186px;
+    margin: 0.15cm 0cm 0cm 0.1cm;
+}
+
+/* Definições imagens sobremesas */
+.imgBrownie{
+    width: 3.31cm;
+    height: 3.44cm;
+    margin: -0.32cm 0cm 0cm 1.38cm;
+}
+.imgPetit{
+    width: 4.1cm;
+    height: 3.12cm;
+    margin: 0.013cm 0cm 0cm 0.85cm;
+}
+.imgTorta{
+    width: 3.44cm;
+    height: 3.57cm;
+    margin: -0.4cm 0cm 0cm 1.03cm;
+}
+.imgDonut{
+    width: 4.23cm;
+    height: 4.23cm;
+    margin: -1.01cm 0cm 0cm 0.77cm;
 }
