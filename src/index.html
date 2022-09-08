@@ -9,29 +9,30 @@
     <title>Grau Pizzas</title>
 </head>
 <body>
+<!-- Cabeçalho -->
     <header>
-        <img class="logoHeader" src="imgs/logo.png" alt="">
+        <img class="logoCabecalho" src="imgs/logo.png" alt="">
         <ul>
             <li><a class="navCardapio" href="#Cardapio">&nbspCardápio&nbsp</a></li>
             <li><a class="navBebidas" href="#Bebidas">&nbspBebidas&nbsp</a></li>
             <li><a class="navSobremesas" href="#Sobremesas">&nbspSobremesas&nbsp</a></li>
+            <li><a class="navSobremesas" href="#SobreNos">&nbspSobre nós&nbsp</a></li>
         </ul>
-            <span class="telefone">
-                <i class="fa-brands fa-whatsapp"></i><p class="number"> (31) 9361-7151</p>
-            </span>
     </header>
+
+<!-- Corpo -->
     <main>
         <section class="banner">
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block w-100" src="imgs/banner-one.png" alt="First slide">
+                    <img class="d-block w-100" src="imgs/banner-um.png" alt="First slide">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="imgs/banner-two.png" alt="Second slide">
+                    <img class="d-block w-100" src="imgs/banner-dois.png" alt="Second slide">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="imgs/banner-three.png" alt="Third slide">
+                    <img class="d-block w-100" src="imgs/banner-tres.png" alt="Third slide">
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -45,7 +46,7 @@
               </div>
         </section>
         <section class="cardapio">
-            <h1><a name="Cardapio"></a>Cardápio<hr class="line-one"></h1>
+            <h1><a name="Cardapio"></a>Cardápio<hr class="linhaUm"></h1>
             <div class="container">
                 <div class="row">
                     <div id="infosPizza" class="col-3">
@@ -99,7 +100,7 @@
                         <img src="imgs/chocolate.png" alt="" class="chocolate">
                     </div>
                 </div>
-                <span id="novaLinha">
+                <span id="maisPizzas">
                     <div class="row">
                         <div id="infosPizza" class="col-3">
                             <div class="saborPizza">
@@ -128,112 +129,113 @@
                     </div>
                 </span>
             </div>
-            <button id="btn" type="button" class="btn btn-danger">+ Mostrar mais</button>
+            <button id="btn-Mais" type="button" class="btn btn-danger">+ Mostrar mais</button>
             <button id="btn-Menos" type="button" class="btn btn-danger">- Mostrar menos</button>
         </section>
         <section class="bebidas">
-            <h1><a name="Bebidas"></a>Bebidas<hr class="line-two"></h1>
-            <div id="containerBebidas" class="container">
+            <h1><a name="Bebidas"></a>Bebidas<hr class="linhaDois"></h1>
+            <div id="secaoBebidas" class="container">
                 <div class="row">
                     <div id="infosBebidas" class="col-4">
-                        <div class="imgRefri">
+                        <div class="imagemRefri">
 
                         </div>
                     </div>
                     <div id="infosBebidas" class="col-4">
-                        <div class="imgRefri">
+                        <div class="imagemRefri">
 
                         </div>
                     </div>
                     <div id="infosBebidas" class="col-4">
-                        <div class="imgRefri">
+                        <div class="imagemRefri">
 
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div id="infosBebidas" class="col-4">
-                        <div class="imgRefri">
+                        <div class="imagemRefri">
 
                         </div>
                     </div>
                     <div id="infosBebidas" class="col-4">
-                        <div class="imgRefri">
+                        <div class="imagemRefri">
 
                         </div>
                     </div>
                     <div id="infosBebidas" class="col-4">
-                        <div class="imgRefri">
+                        <div class="imagemRefri">
 
                         </div>
                     </div>
                 </div>
-                <span id="novaLinhaDois">
+                <span id="maisBebidas">
                     <div class="row">
                         <div id="infosBebidas" class="col-4">
-                            <div class="imgRefri">
+                            <div class="imagemRefri">
 
                             </div>
                         </div>
                         <div id="infosBebidas" class="col-4">
-                            <div class="imgRefri">
+                            <div class="imagemRefri">
 
                             </div>
                         </div>
                         <div id="infosBebidas" class="col-4">
-                            <div class="imgRefri">
+                            <div class="imagemRefri">
 
                             </div>
                         </div>
                     </div>
                 </span>
             </div>
-            <button id="btn-Mais" type="button" class="btn btn-danger">+ Mostrar mais</button>
-            <button id="btn-MenosDois" type="button" class="btn btn-danger">- Mostrar menos</button>
+            <button id="mostrarMais" type="button" class="btn btn-danger">+ Mostrar mais</button>
+            <button id="mostrarMenos" type="button" class="btn btn-danger">- Mostrar menos</button>
         </section>
         <section class="sobremesas">
-            <h1><a name="Sobremesas"></a>Sobremesas<hr class="line-three"></h1>
+            <h1><a name="Sobremesas"></a>Sobremesas<hr class="linhaTres"></h1>
             <div class="container">
                 <div class="row">
                     <div id="infosSobremesas" class="col-3">
                         <div class="nomeSobremesa">
                             <h5>🍴 Brownie</h5>
                         </div>
-                        <img class="imgBrownie" src="imgs/brownie.png" alt="">
+                        <img class="brownie" src="imgs/brownie.png" alt="">
                         <p><i class="fa-solid fa-money-bill"></i> R$ 6,00</p>
                     </div>
                     <div id="infosSobremesas" class="col-3">
                         <div class="nomeSobremesa">
                             <h5>🍴 Pavê de chocolate</h5>
                         </div>
-                        <img class="imgPave" src="imgs/pave.png" alt="">
+                        <img class="pave" src="imgs/pave.png" alt="">
                         <p><i class="fa-solid fa-money-bill"></i> R$ 5,50</p>
                     </div>
                     <div id="infosSobremesas" class="col-3">
                         <div class="nomeSobremesa">
                             <h5>🍴 Torta de limão</h5>
                         </div>
-                        <img class="imgTorta" src="imgs/torta-limao.png" alt="">
+                        <img class="torta" src="imgs/torta-limao.png" alt="">
                         <p><i class="fa-solid fa-money-bill"></i> R$ 4,50</p>
                     </div>
                     <div id="infosSobremesas" class="col-3">
                         <div class="nomeSobremesa">
                             <h5>🍴 Donuts</h5>
                         </div>
-                        <img class="imgDonut" src="imgs/donut.png" alt="">
+                        <img class="donut" src="imgs/donut.png" alt="">
                         <p><i class="fa-solid fa-money-bill"></i> R$ 5,00</p>
                     </div>
                 </div>
             </div>    
         </section>
     </main>
+<!-- Rodapé -->
     <footer>
         <span class="redesSociais">
-            <a href="https://www.instagram.com/grau_pizzas/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.instagram.com/graupizzas/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
             <a href="https://wa.me/553193617151" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
         </span>
         <p class="copyright">© 2022 Copyright - Grau Pizzas</p>
-        <img class="logoFooter" src="imgs/logo.png" alt="">
+        <img class="logoRodape" src="imgs/logo.png" alt="">
     </footer>
 
     <script src="app.js"></script>

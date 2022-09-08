@@ -7,8 +7,8 @@ header, footer{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-variant: small-caps;
     font-weight: 500;
-    font-size: 0.7cm;
-    margin: 0cm 0.3cm;
+    font-size: 1.6535435154071rem;
+    margin: 0rem 0.70866150660302rem;
     color: #ffffff;
 }
 .navCardapio:hover, .navBebidas:hover, .navSobremesas:hover{
@@ -17,12 +17,12 @@ header, footer{
     -webkit-transition: all 0.7s;
     transition: all 0.7s;
 }
-.logoHeader, .logoFooter{
-    width: 4.5cm;
-    height: 3.5cm;
+.logoCabecalho, .logoRodape{
+    width: 10.629922599045rem;
+    height: 8.2677175770353rem;
 }
-.logoHeader{
-    margin: 0.3cm 0cm 0.3cm 0.8cm;
+.logoCabecalho{
+    margin: 0.70866150660302rem 0rem 0.70866150660302rem 1.8897640176081rem;
 }
 header > ul{
     display: inline-flex;
@@ -30,32 +30,23 @@ header > ul{
 li{
     list-style: none;
     display: inline-flex;
-    margin-left: 2.5cm;
+    margin-left: 5.9055125550252rem;
 }
 header i{
     font-size: xx-large;
     color: #ffffff;
 }
-.number{
-    color: #ffffff;
-    display: inline;
-    font-size: 0.7cm;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.telefone{
-    margin-left: 2.5cm;
-}
 
 /* Main */
 ::-webkit-scrollbar{
-    width: 0.4cm;
+    width: 0.94488200880403rem;
 }
 ::-webkit-scrollbar-track{
     background-color: #000000;
 }
 ::-webkit-scrollbar-thumb{
     background-color: #fbb040;
-    border-radius: 0.3cm;
+    border-radius: 0.70866150660302rem;
 }
 h1, h5{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -67,35 +58,35 @@ h1{
     color: #228B22;
 }
 h5{
-    padding-top: 0.3cm;
+    padding-top: 0.70866150660302rem;
 }
-.line-one, .line-two, .line-three{
-    padding-bottom: 0.1cm;
+.linhaUm, .linhaDois, .linhaTres{
+    padding-bottom: 0.23622050220101rem;
     color: #228B22;
 }
-.line-one{
-    width: 3cm;
-    margin: 0.08cm 0cm 0.8cm 16.35cm;
+.linhaUm{
+    width: 7.0866150660302rem;
+    margin: 0.18897640176081rem 0rem 1.8897640176081rem 38.622052109865rem;
 }
-.line-two{
-    width: 2.6cm;
-    margin: 0.08cm 0cm 0.8cm 16.52cm;
+.linhaDois{
+    width: 6.1417330572262rem;
+    margin: 0.18897640176081rem 0rem 1.8897640176081rem 39.098626963607rem;
 }
-.line-three{
-    width: 3.8cm;
-    margin: 0.08cm 0cm 0.8cm 16cm;
+.linhaTres{
+    width: 8.9763790836383rem;
+    margin: 0.18897640176081rem 0rem 1.8897640176081rem 37.795280352161rem;
 }
 .precoSobremesa{
     color: #ffffff;
     background: #AE0F18;
     text-align: center;
     font-weight: 600;
-    font-size: 0.7cm;
+    font-size: 1.6535435154071rem;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     width: 60%;
-    border-radius: 0.2cm;
-    border: 0.05cm solid #000000;
-    margin: 0.4cm 0cm 0cm 1.2cm;
+    border-radius: 0.47244100440202rem;
+    border: 0.1181102511005rem-0.1181102511005rem solid #000000;
+    margin: 0.94488200880403rem 0rem 0rem 2.8346460264121rem;
 }
 .precoSobremesa:hover{
     color: #000000;
@@ -103,43 +94,43 @@ h5{
     -webkit-transition: all 0.7s;
     transition: all 0.7s;
 }
-#btn, #btn-Mais{
-    margin-left: 29cm;
+#btn-Mais, #mostrarMais{
+    margin-left: 68.503945638292rem;
 }
-#btn-Menos, #btn-MenosDois{
-    margin-left: 29cm;
+#btn-Menos, #mostrarMenos{
+    margin-left: 68.503945638292rem;
     display: none;
 }
-#novaLinha, #novaLinhaDois{
+#maisPizzas, #maisBebidas{
     display: none;
 }
 p{
     text-align: justify;
-    font-size: 0.5cm;
+    font-size: 1.181102511005rem;
     font-family: Arial, Helvetica, sans-serif;
 }
 #infosPizza, #infosSobremesas{
-    width: 6.615cm;
-    height: 6.615cm;
-    margin: 0cm 0.383cm 0.7cm 0.383cm;
+    width: 15.625986220597rem;
+    height: 15.625986220597rem;
+    margin: 0rem 0.90472452342986rem 1.6535435154071rem 0.90472452342986rem;
 }
 #infosSobremesas > p{
     text-align:start;
     align-content: center;
     font-weight: 600;
-    font-size: 0.6cm;
+    font-size: 1.417323013206rem;
     color: #228B22;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 #infosBebidas{
-    width: 8.7cm;
-    height: 3.8cm;
-    margin: 0cm 0.7cm 0.7cm 0cm;
+    width: 20.551183691488rem;
+    height: 8.9763790836383rem;
+    margin: 0rem 1.6535435154071rem 1.6535435154071rem 0rem;
 }
-.imgRefri{
-    margin: -0.05cm 0cm 0cm -0.37cm;
-    width: 4cm;
-    height: 3.8cm;
+.imagemRefri{
+    margin: -0.1181102511005rem 0rem 0rem -0.87401585814373rem;
+    width: 9.4488200880403rem;
+    height: 8.9763790836383rem;
     border: 2px solid #000000;
 }
 #infosPizza, #infosSobremesas, #infosBebidas{
@@ -147,109 +138,106 @@ p{
     display: inline-block;
 }
 .banner, .cardapio, .bebidas, .sobremesas{
-    margin-bottom: 1cm;
+    margin-bottom: 2.3622050220101rem;
 }
-#containerBebidas{
-    margin-left: 3.9cm;
+#secaoBebidas{
+    margin-left: 9.2125995858393rem;
 }
 .saborPizza, .nomeSobremesa{
     background-color: #fbb040;
-    width: 247px;
-    height: 50px;
-    margin-left: -0.31cm;
+    width: 15.438rem;
+    height: 3.125rem;
+    margin-left: -0.73228355682313rem;
+}
+/* Definições imagens pizzas */
+.quatro-queijos{
+    margin: -0.16535435154071rem 0rem 0rem 0.75590560704323rem;
+}
+.calabresa{
+    margin: -0.30708665286131rem 0rem 0rem 0.49606305462212rem;
+}
+.chocolate{
+    margin: -0.35433075330151rem 0rem 0rem 0.54330715506232rem;
+}
+.portuguesa{
+    margin: -0.35433075330151rem 0rem 0rem 0.49606305462212rem;
+}
+.milho-bacon{
+    margin: -0.16535435154071rem 0rem 0rem 0.85039380792363rem;
+}
+.milho-bacon, .quatro-queijos{
+    width: 12.519686616653rem;
+    height: 12.519686616653rem;
+}
+.calabresa, .portuguesa, .chocolate{
+    width: 12.992127621055rem;
+    height: 12.992127621055rem;
+}
+.frango-catupiry, .marguerita{
+    width: 11.81102511005rem;
+    height: 11.81102511005rem;
+    margin: 0.25984255242111rem 0rem 0.94488200880403rem 1.1338584105648rem;
+}
+.pepperoni{
+    width: 13.228348123256rem;
+    height: 11.81102511005rem;
+    margin: 0.33070870308141rem 0rem 0rem 0.37795280352161rem;
+}
+.bacon, .lombo{
+    width: 11.438rem;
+    height: 11.438rem;
+    margin: 0.47244100440202rem 0rem 0rem 1.2755907118854rem;
+}
+.banana{
+    width: 11.688rem;
+    height: 11.688rem;
+    margin: 0.28346460264121rem 0rem 0rem 1.181102511005rem;
+}
+.mussarela{
+    width: 13.5rem;
+    height: 11.625rem;
+    margin: 0.35433075330151rem 0rem 0rem 0.23622050220101rem;
+}
+
+/* Definições imagens sobremesas */
+.brownie{
+    width: 10.181103644863rem;
+    height: 10.488190297725rem;
+    margin: -0.94488200880403rem 0rem 0rem 2.2440947709096rem;
+}
+.pave{
+    width: 9.9212610924423rem;
+    height: 9.9212610924423rem;
+    margin: -0.35433075330151rem 0rem 0rem 2.1259845198091rem;
+}
+.torta{
+    width: 10.322835946184rem;
+    height: 10.629922599045rem;
+    margin: -1.0629922599045rem 0rem 0rem 1.417323013206rem;
+}
+.donut{
+    width: 12.354332265113rem;
+    height: 12.354332265113rem;
+    margin: -2.811023976192rem 0rem 0rem 0.77952765726333rem;
 }
 
 /* Rodapé */
 .copyright{
     display: inline-flex;
-    margin-left: 8cm;
-    font-size: 0.6cm;
+    margin-left: 18.897640176081rem;
+    font-size: 1.417323013206rem;
     font-variant: small-caps;
     color: #ffffff;
 }
-.logoFooter{
-    margin: 0.3cm 0cm 0.3cm 7.5cm;
+.logoRodape{
+    margin: 0.70866150660302rem 0rem 0.70866150660302rem 17.716537665076rem;
     display: inline-flex;
 }
 footer i{
     font-size: xx-large;
     color: #ffffff;
-    margin: 0px 10px 0px 10px;
+    margin: 0rem 0.625rem 0rem 0.625rem;
 }
 .redesSociais{
-    margin-left: 1cm;
-}
-
-/* Definições imagens pizzas */
-.frango-catupiry, .marguerita{
-    width: 5cm;
-    height: 5cm;
-    margin: 0.11cm 0cm 0.4cm 0.48cm;
-}
-.milho-bacon, .quatro-queijos{
-    width: 5.3cm;
-    height: 5.3cm;
-}
-.calabresa, .portuguesa, .chocolate{
-    width: 5.5cm;
-    height: 5.5cm;
-}
-.pepperoni{
-    width: 5.6cm;
-    height: 5cm;
-    margin: 0.14cm 0cm 0cm 0.16cm;
-}
-.quatro-queijos{
-    margin: -0.07cm 0cm 0cm 0.32cm;
-}
-.calabresa{
-    margin: -0.13cm 0cm 0cm 0.21cm;
-}
-.chocolate{
-    margin: -0.15cm 0cm 0cm 0.23cm;
-}
-.portuguesa{
-    margin: -0.15cm 0cm 0cm 0.21cm;
-}
-.milho-bacon{
-    margin: -0.07cm 0cm 0cm 0.36cm;
-}
-.bacon, .lombo{
-    width: 183px;
-    height: 183px;
-}
-.bacon, .lombo{
-    margin: 0.2cm 0cm 0cm 0.54cm;
-}
-.banana{
-    margin: 0.12cm 0cm 0cm 0.5cm;
-    width: 187px;
-    height: 187px;
-}
-.mussarela{
-    width: 216px;
-    height: 186px;
-    margin: 0.15cm 0cm 0cm 0.1cm;
-}
-
-/* Definições imagens sobremesas */
-.imgBrownie{
-    width: 4.31cm;
-    height: 4.44cm;
-    margin: -0.4cm 0cm 0cm 0.95cm;
-}
-.imgPave{
-    width: 4.2cm;
-    height: 4.2cm;
-    margin: -0.15cm 0cm 0cm 0.9cm;
-}
-.imgTorta{
-    width: 4.37cm;
-    height: 4.5cm;
-    margin: -0.45cm 0cm 0cm 0.6cm;
-}
-.imgDonut{
-    width: 5.23cm;
-    height: 5.23cm;
-    margin: -1.19cm 0cm 0cm 0.33cm;
+    margin-left: 2.3622050220101rem;
 }

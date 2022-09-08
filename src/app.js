@@ -1,39 +1,39 @@
 /* Botões "+ Mostrar mais" e "- Mostrar menos" da section Cardápio */
 
-let btnMais = document.querySelector("#btn")
-let btnMenos = document.querySelector("#btn-Menos")
-let linhaRemovida = document.querySelector("#novaLinha")
+let mostrarMais = document.querySelector("#btn-Mais")
+let mostrarMenos = document.querySelector("#btn-Menos")
+let removerLinha = document.querySelector("#maisPizzas")
 
-btnMais.addEventListener('click', function (){
-    linhaRemovida.style.display = "block"
-    btnMais.style.display = "none"
-    btnMenos.style.display = "block"
+mostrarMais.addEventListener('click', function (){
+    removerLinha.style.display = "block"
+    mostrarMais.style.display = "none"
+    mostrarMenos.style.display = "block"
 });
 
-btnMenos.addEventListener("click", function(){
-    let someLinha = linhaRemovida.style.display = "none"
-    if(someLinha === "none"){
-        btnMenos.style.display = "none"
-        btnMais.style.display = "block"
+mostrarMenos.addEventListener("click", function(){
+    let linhaRemovida = removerLinha.style.display = "none"
+    if(linhaRemovida === "none"){
+        mostrarMenos.style.display = "none"
+        mostrarMais.style.display = "block"
     }
 });
 
 /* Botões "+ Mostrar mais" e "- Mostrar menos" da section Bebidas */
 
-let btnMaisDois = document.querySelector("#btn-Mais")
-let btnMenosDois = document.querySelector("#btn-MenosDois")
-let linhaRemovidaDois = document.querySelector("#novaLinhaDois")
+let botaoMais = document.querySelector("#mostrarMais")
+let botaoMenos = document.querySelector("#mostrarMenos")
+let apagarLinha = document.querySelector("#maisBebidas")
 
-btnMaisDois.addEventListener('click', function(){
-    linhaRemovidaDois.style.display = "block"
-    btnMaisDois.style.display = "none"
-    btnMenosDois.style.display = "block"
+botaoMais.addEventListener('click', function(){
+    apagarLinha.style.display = "block"
+    botaoMais.style.display = "none"
+    botaoMenos.style.display = "block"
 });
 
-btnMenosDois.addEventListener('click', function(){
-    let someLinhaDois = linhaRemovidaDois.style.display = "none"
-    if(someLinhaDois === "none"){
-        btnMenosDois.style.display = "none"
-        btnMaisDois.style.display = "block"
+botaoMenos.addEventListener('click', function(){
+    let linhaApagada = apagarLinha.style.display = "none"
+    if(linhaApagada === "none"){
+        botaoMenos.style.display = "none"
+        botaoMais.style.display = "block"
     }
 });
