@@ -77,6 +77,11 @@ h1, h5, p{
     width: 8.9763790836383rem;
     margin: 0.18897640176081rem 0rem 1.8897640176081rem 37.795280352161rem;
 }
+.sobreNos > iframe{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
 #btn-Mais, #mostrarMais{
     margin-left: 68.503945638292rem;
 }
@@ -97,10 +102,6 @@ h1, h5, p{
 #infosSobremesas{
     height: 15.625986220597rem;
 }
-#infosSobremesas > p{
-    text-align: center;
-    font-size: 1.297323013206rem;
-}
 .bebidas p{
     font-size: 1.3rem;
 }
@@ -111,6 +112,10 @@ p > i{
     font-weight: 600;
     color: #000000;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#infosSobremesas > p{
+    text-align: center;
+    font-size: 1.297323013206rem;
 }
 #pizza > p{
     font-size: 1.3rem;
